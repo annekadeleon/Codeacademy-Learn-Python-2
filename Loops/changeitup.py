@@ -1,0 +1,12 @@
+fruits = ["banana", "apple", "orange", "tomato", "pear", "grape"]
+
+print("You have...")
+
+for f in fruits:
+  if f == "tomato":
+    print("A tomato is not a fruit!")
+    #break
+  print("A", f)
+  #else block does not run when if loop ends with break
+  else:
+    print("A fine selection of fruits!")
