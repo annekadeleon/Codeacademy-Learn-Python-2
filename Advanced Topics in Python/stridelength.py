@@ -1,4 +1,4 @@
-#list of numbeers from 0 to 101
+#list of numbeers from 0 to 100
 to_one_hundred = range(101)
 
 #every 10th number in to_one_hundred in reversed order
