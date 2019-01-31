@@ -14,5 +14,5 @@ class Animal(object):
 hippo = Animal("Gloria", 20)
 #calls description method
 #outputs: Gloria
-				#	20
+#	  20
 hippo.description()
