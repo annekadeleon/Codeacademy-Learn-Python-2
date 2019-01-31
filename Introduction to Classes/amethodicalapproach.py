@@ -13,6 +13,5 @@ class Animal(object):
 #hippo is an instance variable of the Animal clas
 hippo = Animal("Gloria", 20)
 #calls description method
-#outputs: Gloria
-#	  20
+#outputs Gloria\n20
 hippo.description()
