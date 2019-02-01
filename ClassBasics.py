@@ -16,6 +16,15 @@ class Car(object):
 	def drive_car(self):
 		self.condition = "used"
 
+#new class called ElectricCar inherits Car
+class ElectricCar(Car):
+	#method __init() initialises new input variable battery_type as well as input variables from class Car
+	def __init__(self, battery_type, model, colour, mpg):
+		self.battery_type = battery_type
+		self.model = model
+		self.colour = colour
+		self.mpg = mpg
+
 #object my_car is an instance of Car
 my_car = Car("DeLoran", "silver", 88)
 
@@ -25,3 +34,6 @@ print my_car.condition
 print my_car.drive_car()
 #outputs used
 print my_car.condition
+
+#object my_car is an instance of ElectricCar
+my_car = ElectricCar("molten salt", "Tesla Model S", "white", 125)
