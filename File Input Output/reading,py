@@ -1,0 +1,8 @@
+#opens a file called output.txt which can be read and places it in the variable my_file
+my_file = open("output.txt", "r")
+
+#outputs my_file
+print my_file.read()
+
+#closes my_file
+my_file.close()
